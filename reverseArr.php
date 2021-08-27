@@ -7,11 +7,10 @@ $end = count($arr) - 1;
 
 
 for($i = 0; $i < count($arr); $i++) {
-
+    
     if($i > $end-$i) {
         break;
     }
-    
     $temp = $arr[$i];
     $arr[$i] = $arr[$end-$i];
     $arr[$end-$i] = $temp;
