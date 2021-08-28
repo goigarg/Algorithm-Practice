@@ -4,17 +4,19 @@ $arr = [1,2,3,2,5,4];
 
 $count = count($arr)-1;
 
-for($i=0;$i<$count;$i++) {
+echo duplicate($arr, $count);
 
-    for($j=0;$j<$count;$j++) {
-        if($arr[$i] == $arr[$j]) {
-            if($i == $j) {
-                //skip
-            } else {
-                echo $arr[$i];
+function duplicate($arr, $count) {
+    for($i=0;$i<$count;$i++) {
+        for($j=0;$j<$count;$j++) {
+            if($arr[$i] == $arr[$j]) {
+                if($i == $j) {
+                    //skip
+                } else {
+                    $duplicate = $arr[$i];
+                }  
             }
-            
         }
     }
-
+    return $duplicate;
 }
