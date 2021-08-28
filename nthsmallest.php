@@ -1,7 +1,11 @@
 <?php
 
-$arr = [2,5,6,3,5,6,11];
+$arr = [2,5,6,3,6,11];
 
+sort($arr);
 
-echo sort($arr);
+$k = $arr[2];
 
+print_r ($arr);
+
+echo $k;
