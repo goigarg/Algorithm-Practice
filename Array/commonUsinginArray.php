@@ -6,8 +6,8 @@ $C = [3, 4, 15, 20, 30, 70, 80, 120];
 
 $match = [];
 
-foreach($A as $i => $a) {
-    if(in_array($a, $B) && in_array($a, $C)) {
+foreach ($A as $i => $a) {
+    if (in_array($a, $B) && in_array($a, $C)) {
         array_push($match, $a);
     }
 }
