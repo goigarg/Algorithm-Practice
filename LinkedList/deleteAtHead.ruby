@@ -42,9 +42,11 @@ end
 
 list = LinkedList.new()
 
-for i in 1..5
-    list.add(i)
-end
+list.add(1)
+list.add(2)
+list.add(3)
+list.add(4)
 
 list.delete
+
 list.printList

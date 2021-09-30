@@ -48,7 +48,11 @@ list.add(1)
 list.add(2)
 list.add(3)
 
+
 list.addAtEnd 4
+list.addAtEnd 5
+list.addAtEnd 6
+
 
 list.printList
 
