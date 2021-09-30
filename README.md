@@ -1,2 +1,2 @@
-# Algorithm-Practice
+# DSA & Algorithm Practice
  
