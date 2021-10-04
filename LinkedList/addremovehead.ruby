@@ -35,7 +35,7 @@ end
 
 list = LinkedList.new()
 
-for i in 1..5
+for i in 1..10
     list.add(i)
 end
 
